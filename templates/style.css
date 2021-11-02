@@ -2,11 +2,20 @@
 Used Font
 https://www.cdnfonts.com/dm-serif-text.font
 */
-@import url('http://fonts.cdnfonts.com/css/dm-serif-text');
 
+@import url('http://fonts.cdnfonts.com/css/dm-serif-text');
 html {
     font-family: 'DM Serif Text', sans-serif;
     font-weight: normal;
+}
+h2 {
+    margin: 60px 0 0 0 !important;
+}
+h3 {
+    margin: 10px 0 0 0 !important;
+}
+h4 {
+    margin: 10px 0 0 0 !important;
 }
 .block {
     width: 800px;
@@ -36,13 +45,4 @@ html {
 }
 .header {
     margin-top: 50px;
-}
-h2 {
-    margin: 60px 0 0 0 !important;
-}
-h3 {
-    margin: 10px 0 0 0 !important;
-}
-h4 {
-    margin: 10px 0 0 0 !important;
 }
