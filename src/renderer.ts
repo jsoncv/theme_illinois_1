@@ -1,5 +1,6 @@
 const Handlebars = require("handlebars")
 import fs from 'fs'
+import { parseISO, format } from 'date-fns'
 
 const render = (cv:any):string => {
     const mainTemplate = fs.readFileSync(__dirname + '/../templates/main.hbs', 'utf-8')
@@ -15,6 +16,15 @@ const render = (cv:any):string => {
         const template = fs.readFileSync(__dirname + filePath, 'utf8')
         Handlebars.registerPartial(name, template)
     })
+    Handlebars.registerHelper("formatDateRange", (startDate:string, endDate:string) => {
+        const startDateString = format(parseISO(startDate), 'yyyy MMM')
+        const endDateString = endDate === undefined ? 'Present' : format(parseISO(endDate), 'yyyy MMM')
+        return new Handlebars.SafeString(`${startDateString} - ${endDateString}`)
+    });
+    Handlebars.registerHelper("formatDate", (date:string) => {
+        const dateString = format(parseISO(date), 'yyyy MMM')
+        return new Handlebars.SafeString(dateString)
+    });
     const templateScript = Handlebars.compile(mainTemplate)
     return templateScript({
         cv: cv,

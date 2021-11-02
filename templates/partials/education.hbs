@@ -1,5 +1,25 @@
+<div class="block">
+    <h2 class="no-margin uppercase">Education</h2>
+</div>
 {{#cv.education}}
-    <h2>Degree: {{ studyType }}</h2>
-    <h2>Institute: {{ institution }}</h2>
-    <hr>
+    <div class="block">
+        <h3>
+            {{studyType}} in {{field}}
+            <span class="right">
+                {{formatDateRange startDate endDate}}
+            </span>
+        </h3>
+        <h4>{{institution}}</h4>
+        {{#if graduateThesis}}
+            <div class="dissertation">
+                <div><i>Dissertation Title</i>: "{{graduateThesis.title}}"</div>
+                <div>
+                    Committee:
+                    {{#each graduateThesis.committee}}
+                        {{this}},
+                    {{/each}}
+                </div>
+            </div>
+        {{/if}}
+    </div>
 {{/cv.education}}

@@ -37,7 +37,8 @@
     "index.js"
   ],
   "dependencies": {
-    "handlebars": "^4.7.7"
+    "handlebars": "^4.7.7",
+    "date-fns": "^2.25.0"
   },
   "devDependencies": {
     "typescript": "^4.3.5",
