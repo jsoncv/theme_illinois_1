@@ -1,0 +1,212 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsoncv/schema/0.16.3/src/schema.json",
+  "basics": {
+    "name": "Rachel Green",
+    "location": {
+      "address": "210 W. Green st.",
+      "city": "Champaign, IL",
+      "country": "USA"
+    },
+    "phoneNumber": "+1 (217) 555-1234",
+    "email": "rstudent@illinois.edu",
+    "url": "https://illinois.edu/"
+  },
+  "education": [
+    {
+      "institution": "University of Illinois",
+      "department": "English Literature",
+      "field": "English",
+      "studyType": "PhD",
+      "graduateThesis": {
+        "title": "Down on the Farm: World War One and the Emergence of Literary Modernism in the American South",
+        "committee": [
+          "Margaret Black",
+          "Naomi Blue",
+          "John Jay",
+          "Robert Roberts (Chair)"
+        ]
+      },
+      "startDate": "2020-05-01",
+      "score": "3.5/4.0",
+      "courses": [
+        "A123 - Intro. to American Literature 1",
+        "A124 - Intro. to American Literature 2"
+      ],
+      "tags": ["Illinois"]
+    },
+    {
+      "institution": "University of Illinois",
+      "department": "English Literature",
+      "field": "English",
+      "studyType": "MA",
+      "startDate": "2016-04-01",
+      "endDate": "2018-04-01",
+      "score": "3.5/4.0",
+      "courses": [
+        "A123 - Intro. to American Literature 1",
+        "A124 - Intro. to American Literature 2"
+      ],
+      "tags": ["Illinois"]
+    },
+    {
+      "institution": "Butler University",
+      "department": "English Literature",
+      "field": "English and Communications",
+      "studyType": "BA",
+      "startDate": "2012-03-01",
+      "endDate": "2016-03-01",
+      "score": "3.5/4.0",
+      "courses": [
+        "A123 - Intro. to American Literature 1",
+        "A124 - Intro. to American Literature 2"
+      ],
+      "tags": ["Butler"]
+    }
+  ],
+  "teaching": [
+    {
+      "position": "Composition Instructor",
+      "location": "Research Writing Program, University of Illinois",
+      "startDate": "2021-01-01",
+      "highlights": [
+        "Facilitator for seven sections of English composition."
+      ]
+    },
+    {
+      "position": "Literature Instructor",
+      "location": "Department of English, University of Illinois",
+      "startDate": "2020-01-01",
+      "endDate": "2021-01-01",
+      "highlights": [
+        "Instructor of record for two sections of literature, including Major American Authors and Introduction to Poetry per semester.",
+        "Integrated multimedia and humanities approaches to teaching literature using film and instructional technology."
+      ]
+    }
+  ],
+  "research": [
+    {
+      "position": "Doctoral Researcher",
+      "location": "Department of English, University of Illinois at Urbana-Champaign",
+      "startDate": "2020-01-01",
+      "highlights": [
+        "Conducted primary source research at numerous archives, examining publication history through multiple sources.",
+        "Examined the literature of William Faulkner, Thomas Wolfe, and Tennessee Williams, exploring their publication records, construction of literary identity, and relationship with modernism."
+      ]
+    },
+    {
+      "position": "Research Assistant",
+      "location": "Department of English, University of Illinois at Urbana-Champaign",
+      "startDate": "2020-01-01",
+      "highlights": [
+        "Assistant to Professor Robert Warren, conducting primary and secondary source research.",
+        "Organized for the “New Directions in the Study of Southern Literature: An Interdisciplinary Conference.”"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "publication": "Johnson, JM, Lolie, T., and Green, R. “Lost on the Farm: Popular Beliefs” Somebody Journal, Special Issue, Reflections on the Americas. Vol. 6. Accepted and forthcoming.",
+      "type": "Journal",
+      "releaseDate": "2020-01-01"
+    },
+    {
+      "publication": "Davis, D.A. and Green, R. “Will N. Harben,” “Etheridge Knight,” and “James Wilcox” in Southern Writers: A Biographical Dictionary. Louisiana State University Press, 20xx.",
+      "type": "Book",
+      "releaseDate": "2020-01-01"
+    }
+  ],
+  "presentations": [
+    {
+      "title": "“The Ministry of Rev. Thomas H. Jones,” South Atlantic Modern Language Association. Atlanta, GA, May 20xx.",
+      "date": "2020-01-01",
+      "type": "Conference"
+    },
+    {
+      "title": "“Shackles and Stripes: The Cinematic Representation of the Southern Chain Gain.” American Literature Association. Cambridge, Massachusetts, November 20xx.",
+      "date": "2020-01-01",
+      "type": "Conference"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Jacob K. Javitz Fellowship",
+      "date": "2020-01-01",
+      "awardedBy": "U.S. Department of Education"
+    },
+    {
+      "title": "Campus Teaching Award based on student evaluations",
+      "date": "2020-01-01",
+      "awardedBy": "University of Illinois"
+    }
+  ],
+  "professionalAffiliation": [
+    {
+      "title": "Southern Literary Journal",
+      "position": "Managing Editor",
+      "startDate": "2020-01-01",
+      "highlights": [
+        "Process manuscripts submitted for publication",
+        "Oversee production and publication procedures.",
+        "Maintain editorial correspondence with prospective contributors.",
+        "Conduct business transactions including publicity, subscriptions and advertising."
+      ]
+    },
+    {
+      "title": "University Quarterly",
+      "position": "Poetry Staff",
+      "startDate": "2020-01-01",
+      "endDate": "2020-01-01",
+      "highlights": [
+        "Review and solicit poems for possible publication."
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Fluent"
+    }
+  ],
+  "references": [
+    {
+      "name": "John Jay",
+      "position": "Assoc. Professor of English, University of Illinois",
+      "email": "jjay@illinois.edu",
+      "phoneNumber": "(217) 333-1112"
+    },
+    {
+      "name": "Jacob S. Snyder",
+      "position": "Assoc. Professor of English, University of Illinois",
+      "email": "jssnyd@illinois.edu",
+      "phoneNumber": "(217) 333-4700"
+    },
+    {
+      "name": "Robert Roberts",
+      "position": "Professor of English, University of Illinois",
+      "email": "rrobe3@illinois.edu",
+      "phoneNumber": "(217) 333-0203"
+    },
+    {
+      "name": "Sally Briscoe",
+      "position": "Assoc. Professor of English, University of Illinois",
+      "email": "briscoe@butler.edu",
+      "phoneNumber": "(317) 492-8763"
+    }
+  ],
+  "meta": {
+    "filters": [
+      {
+        "name": "University of Illinois",
+        "tags": ["Illinois"]
+      },
+      {
+        "name": "Butler University",
+        "tags": ["Butler"]
+      }
+    ]
+  }
+}

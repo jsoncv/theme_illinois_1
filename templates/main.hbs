@@ -1,0 +1,19 @@
+<html lang="en">
+    <head>
+        <title>{{cv.basics.name}}'s CV</title>
+        <style>{{css}}</style>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        {{> basics}}
+        {{#if cv.education.length}}{{> education}}{{/if}}
+        {{#if cv.teaching.length}}{{> teaching}}{{/if}}
+        {{#if cv.research.length}}{{> research}}{{/if}}
+        {{#if cv.publications.length}}{{> publications}}{{/if}}
+        {{#if cv.presentations.length}}{{> presentations}}{{/if}}
+        {{#if cv.awards}}{{> awards}}{{/if}}
+        {{#if cv.professionalAffiliation}}{{> professional_affiliation}}{{/if}}
+        {{#if cv.languages}}{{> languages}}{{/if}}
+        {{#if cv.references}}{{> references}}{{/if}}
+    </body>
+</html>

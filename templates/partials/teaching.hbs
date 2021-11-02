@@ -1,0 +1,19 @@
+<div class="block">
+    <h2 class="no-margin uppercase">Teaching</h2>
+</div>
+{{#cv.teaching}}
+    <div class="block">
+        <h3>
+            {{position}}
+            <span class="right">
+                {{formatDateRange startDate endDate}}
+            </span>
+        </h3>
+        <h4>{{location}}</h4>
+        <ul>
+            {{#each highlights}}
+                <li>{{this}}</li>
+            {{/each}}
+        </ul>
+    </div>
+{{/cv.teaching}}

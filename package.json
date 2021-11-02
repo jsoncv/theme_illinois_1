@@ -1,0 +1,48 @@
+{
+  "name": "@jsoncv/theme_illinois_1",
+  "version": "0.1.0",
+  "description": "An example template for JSONCV",
+  "license": "MIT",
+  "author": {
+    "name" : "Amin Zabardast",
+    "email" : "aminzabardast@gmail.com",
+    "url" : "https://AminZabardast.com"
+  },
+  "keywords": [
+    "jsoncv",
+    "academic cv",
+    "cv",
+    "academic resume",
+    "resume",
+    "theme"
+  ],
+  "scripts": {
+    "serve": "tsc -w -d",
+    "build": "tsc -d"
+  },
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminzabardast/jsoncv_theme_illinois_1.git"
+  },
+  "homepage": "https://github.com/jsoncv/jsoncv_theme_illinois_1#readme",
+  "bugs": {
+    "url": "https://github.com/jsoncv/jsoncv_theme_illinois_1/issues"
+  },
+  "files": [
+    "lib/**/*",
+    "templates/**/*",
+    "index.js"
+  ],
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "date-fns": "^2.25.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5",
+    "@tsconfig/node14": "^1.0.1",
+    "@types/node": "^14.17.10"
+  }
+}
