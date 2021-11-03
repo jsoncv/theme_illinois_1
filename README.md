@@ -3,6 +3,14 @@
 [![GitHub Releases](https://badgen.net/github/tag/jsoncv/theme_illinois_1)](https://github.com/jsoncv/theme_illinois_1/releases)
 [![NPM Release](https://badgen.net/npm/v/@jsoncv/theme_illinois_1)](https://www.npmjs.com/package/@jsoncv/theme_illinois_1)
 
+- [Installation](#installation)
+  - [Using Git](#using-git)
+  - [Using NPM](#using-npm)
+- [Purpose and Guides](#purpose-and-guides)
+  - [Theme Requirements](#theme-requirements)
+  - [Good Design Practices](#good-design-practices)
+  - [NPM Publishing Guidelines](#npm-publishing-guidelines)
+  - [Helping the Community](#helping-the-community)
 
 ## Installation
 This theme can be installed by pulling the repository from _git_ or using _npm_.
