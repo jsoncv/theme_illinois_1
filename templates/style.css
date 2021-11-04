@@ -10,6 +10,7 @@ html {
 }
 h2 {
     margin: 60px 0 0 0 !important;
+    text-decoration: underline;
 }
 h3 {
     margin: 10px 0 0 0 !important;
@@ -41,7 +42,7 @@ h4 {
     padding-left: 40px;
 }
 .smaller {
-    font-size: smaller;
+    font-size: smaller !important;
 }
 .header {
     margin-top: 50px;

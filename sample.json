@@ -7,13 +7,13 @@
       "city": "Champaign, IL",
       "country": "USA"
     },
-    "phoneNumber": "+1 (217) 555-1234",
+    "phoneNumber": "(217) 555-1234",
     "email": "rstudent@illinois.edu",
     "url": "https://illinois.edu/"
   },
   "education": [
     {
-      "institution": "University of Illinois",
+      "institution": "University of Illinois at Urbana-Champaign",
       "department": "English Literature",
       "field": "English",
       "studyType": "PhD",
@@ -32,10 +32,10 @@
         "A123 - Intro. to American Literature 1",
         "A124 - Intro. to American Literature 2"
       ],
-      "tags": ["Illinois"]
+      "tags": ["illinois", "phd"]
     },
     {
-      "institution": "University of Illinois",
+      "institution": "University of Illinois at Urbana-Champaign",
       "department": "English Literature",
       "field": "English",
       "studyType": "MA",
@@ -46,10 +46,10 @@
         "A123 - Intro. to American Literature 1",
         "A124 - Intro. to American Literature 2"
       ],
-      "tags": ["Illinois"]
+      "tags": ["illinois"]
     },
     {
-      "institution": "Butler University",
+      "institution": "Butler University, Indianapolis, IN",
       "department": "English Literature",
       "field": "English and Communications",
       "studyType": "BA",
@@ -60,7 +60,7 @@
         "A123 - Intro. to American Literature 1",
         "A124 - Intro. to American Literature 2"
       ],
-      "tags": ["Butler"]
+      "tags": ["butler"]
     }
   ],
   "teaching": [
@@ -69,8 +69,12 @@
       "location": "Research Writing Program, University of Illinois",
       "startDate": "2021-01-01",
       "highlights": [
-        "Facilitator for seven sections of English composition."
-      ]
+        "Facilitator for seven sections of English composition.",
+        "Planned and taught a writing-intensive course based upon current events.",
+        "Used instructional technology to enhance pedagogical technique.",
+        "Taught in part with an innovative, interdisciplinary team-teaching program design."
+      ],
+      "tags": ["illinois"]
     },
     {
       "position": "Literature Instructor",
@@ -80,7 +84,42 @@
       "highlights": [
         "Instructor of record for two sections of literature, including Major American Authors and Introduction to Poetry per semester.",
         "Integrated multimedia and humanities approaches to teaching literature using film and instructional technology."
-      ]
+      ],
+      "tags": ["illinois"]
+    },
+    {
+      "position": "Coordinating Group Leader",
+      "location": "Research Writing Program, University of Illinois",
+      "startDate": "2020-01-01",
+      "endDate": "2021-01-01",
+      "highlights": [
+        "Planned and led required training session for teaching assistants and new composition teachers.",
+        "Helped to mentor new hires to the English Department staff to ensure their engagement and professional development.",
+        "Provided job shadowing and training opportunities to assist new hires in adjusting to the pace of  work and the tone and style of the University."
+      ],
+      "tags": ["illinois"]
+    },
+    {
+      "position": "Discussion Leader",
+      "location": "Carolina Summer Reading Program, University of Illinois",
+      "startDate": "2020-01-01",
+      "endDate": "2021-01-01",
+      "highlights": [
+        "Led group discussion for first-year students on academic topics."
+      ],
+      "tags": ["illinois"]
+    },
+    {
+      "position": "Teaching Assistant",
+      "location": "Department of English, University of Illinois at Urbana-Champaign",
+      "startDate": "2020-01-01",
+      "endDate": "2021-01-01",
+      "highlights": [
+        "Taught a section on film criticism, including film history, theory and technical vocabulary.",
+        "Planned lessons and assignments, led discussion sections, graded papers and exams.",
+        "Organized and led group discussions on social and academic issues."
+      ],
+      "tags": ["illinois"]
     }
   ],
   "research": [
@@ -91,7 +130,8 @@
       "highlights": [
         "Conducted primary source research at numerous archives, examining publication history through multiple sources.",
         "Examined the literature of William Faulkner, Thomas Wolfe, and Tennessee Williams, exploring their publication records, construction of literary identity, and relationship with modernism."
-      ]
+      ],
+      "tags": ["phd", "illinois"]
     },
     {
       "position": "Research Assistant",
@@ -100,12 +140,23 @@
       "highlights": [
         "Assistant to Professor Robert Warren, conducting primary and secondary source research.",
         "Organized for the “New Directions in the Study of Southern Literature: An Interdisciplinary Conference.”"
-      ]
+      ],
+      "tags": ["phd", "illinois"]
     }
   ],
   "publications": [
     {
+      "publication": "Associate Editor of North Carolina Slave Narratives. John Jacob Franz, general editor. Forthcoming  from University of Illinois Press, 20xx.",
+      "type": "Book",
+      "releaseDate": "2020-01-01"
+    },
+    {
       "publication": "Johnson, JM, Lolie, T., and Green, R. “Lost on the Farm: Popular Beliefs” Somebody Journal, Special Issue, Reflections on the Americas. Vol. 6. Accepted and forthcoming.",
+      "type": "Journal",
+      "releaseDate": "2020-01-01"
+    },
+    {
+      "publication": "Green, R. “Fugitives/Agrarians” in A Companion to Twentieth-Century American Poetry. Rutgers Press.",
       "type": "Journal",
       "releaseDate": "2020-01-01"
     },
@@ -117,6 +168,16 @@
   ],
   "presentations": [
     {
+      "title": "“Artistic Colloquialism,” Illinois Graduate College Seminar, speaker and organizer. Urbana, IL",
+      "date": "2020-01-01",
+      "type": "Conference"
+    },
+    {
+      "title": "“Transitional Bible Belt,” US Divergence Symposium, Duke University, NC",
+      "date": "2020-02-01",
+      "type": "Conference"
+    },
+    {
       "title": "“The Ministry of Rev. Thomas H. Jones,” South Atlantic Modern Language Association. Atlanta, GA, May 20xx.",
       "date": "2020-01-01",
       "type": "Conference"
@@ -124,6 +185,11 @@
     {
       "title": "“Shackles and Stripes: The Cinematic Representation of the Southern Chain Gain.” American Literature Association. Cambridge, Massachusetts, November 20xx.",
       "date": "2020-01-01",
+      "type": "Conference"
+    },
+    {
+      "title": "“Body Place of Sprits in the South,” Queen Mary College, University of London",
+      "date": "2020-04-01",
       "type": "Conference"
     }
   ],
@@ -137,6 +203,36 @@
       "title": "Campus Teaching Award based on student evaluations",
       "date": "2020-01-01",
       "awardedBy": "University of Illinois"
+    },
+    {
+      "title": "Campus Teaching Award based on student evaluation",
+      "date": "2020-01-01",
+      "awardedBy": "University of Illinois"
+    },
+    {
+      "title": "Doctoral Fellowship, Illinois Program for Research in the Humanities",
+      "date": "2020-01-01",
+      "awardedBy": "University of Illinois"
+    },
+    {
+      "title": "Summer Research Grant",
+      "date": "2020-01-01",
+      "awardedBy": "Center for Summer Studies, City, ST"
+    },
+    {
+      "title": "Graduate College Conference Travel Gran",
+      "date": "2020-01-01",
+      "awardedBy": "University of Illinois"
+    },
+    {
+      "title": "Most Outstanding Butler Woman",
+      "date": "2020-01-01",
+      "awardedBy": "Butler University, Indianapolis, IN"
+    },
+    {
+      "title": "Academic Scholarship",
+      "date": "2020-01-01",
+      "awardedBy": " Butler University, Indianapolis, IN"
     }
   ],
   "professionalAffiliation": [
@@ -159,6 +255,44 @@
       "highlights": [
         "Review and solicit poems for possible publication."
       ]
+    },
+    {
+      "title": "Southern Literary Journal",
+      "position": "Editorial Assistant",
+      "startDate": "2020-01-01",
+      "endDate": "2020-01-01",
+      "highlights": [
+        "Designed and maintained journal’s internet presence.",
+        "Edited copy for publication on a monthly basis."
+      ]
+    },
+    {
+      "title": "The Career Center, University of Illinois",
+      "position": "Graduate Mentor",
+      "startDate": "2020-01-01",
+      "endDate": "2020-01-01",
+      "highlights": [
+        "Counsel minority undergraduates on graduate programs, application procedures and funding."
+      ]
+    },
+    {
+      "title": "Graduate College, University of Illinois",
+      "position": "Career Advisory Committee",
+      "startDate": "2020-01-01",
+      "endDate": "2020-01-01",
+      "highlights": [
+        "Served on university committee to evaluate and propose career services for graduate students.",
+        "Collaborated with faculty and students to prepare final report for submission to the Graduate College Dean."
+      ]
+    },
+    {
+      "title": "Undergraduate Library, University of Illinois",
+      "position": "University Library Advisory Committee",
+      "startDate": "2020-01-01",
+      "endDate": "2020-01-01",
+      "highlights": [
+        "Advised University Librarian on needed services and improvements."
+      ]
     }
   ],
   "languages": [
@@ -169,6 +303,10 @@
     {
       "language": "Spanish",
       "fluency": "Fluent"
+    },
+    {
+      "language": "German",
+      "fluency": "Intermediate"
     }
   ],
   "references": [
@@ -200,12 +338,8 @@
   "meta": {
     "filters": [
       {
-        "name": "University of Illinois",
-        "tags": ["Illinois"]
-      },
-      {
-        "name": "Butler University",
-        "tags": ["Butler"]
+        "name": "education",
+        "tags": ["phd", "illinois", "bulter"]
       }
     ]
   }
