@@ -40,4 +40,5 @@ const render = (cv:any):string => {
     })
 }
 
+// Renderer should be the default export
 export default render
