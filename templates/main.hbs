@@ -7,12 +7,12 @@
     <body>
         {{> basics}}
         {{#if cv.education.length}}{{> education}}{{/if}}
-        {{#if cv.teaching.length}}{{> teaching}}{{/if}}
+        {{#if cv.professionalAffiliation}}{{> professional_affiliation}}{{/if}}
         {{#if cv.research.length}}{{> research}}{{/if}}
+        {{#if cv.teaching.length}}{{> teaching}}{{/if}}
         {{#if cv.publications.length}}{{> publications}}{{/if}}
         {{#if cv.presentations.length}}{{> presentations}}{{/if}}
         {{#if cv.awards}}{{> awards}}{{/if}}
-        {{#if cv.professionalAffiliation}}{{> professional_affiliation}}{{/if}}
         {{#if cv.languages}}{{> languages}}{{/if}}
         {{#if cv.references}}{{> references}}{{/if}}
     </body>
