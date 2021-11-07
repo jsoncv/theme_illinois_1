@@ -1,16 +1,5 @@
-/*
-Used Font
-https://www.cdnfonts.com/dm-serif-text.font
-*/
-
-@import url('http://fonts.cdnfonts.com/css/dm-serif-text');
-html {
-    font-family: 'DM Serif Text', sans-serif;
-    font-weight: normal;
-}
 h2 {
     margin: 60px 0 0 0 !important;
-    text-decoration: underline;
 }
 h3 {
     margin: 10px 0 0 0 !important;

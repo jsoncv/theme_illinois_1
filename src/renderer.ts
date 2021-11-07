@@ -27,11 +27,11 @@ const render = (cv:any):string => {
         const startDateString = format(parseISO(startDate), 'yyyy MMM')
         const endDateString = endDate === undefined ? 'Present' : format(parseISO(endDate), 'yyyy MMM')
         return new Handlebars.SafeString(`${startDateString} - ${endDateString}`)
-    });
+    })
     Handlebars.registerHelper("formatDate", (date:string) => {
         const dateString = format(parseISO(date), 'yyyy MMM')
         return new Handlebars.SafeString(dateString)
-    });
+    })
     // Serving and compiling
     const templateScript = Handlebars.compile(mainTemplate)
     return templateScript({
