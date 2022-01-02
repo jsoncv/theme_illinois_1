@@ -1,18 +1,42 @@
 <html lang="en">
     <head>
         <title>{{cv.basics.name}}'s CV</title>
-        <style>{{css}}</style>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+        <style>
+/*
+Used Font
+https://www.cdnfonts.com/dm-serif-text.font
+*/
+@font-face {
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+    src: local('DM Serif Text'), url('https://fonts.cdnfonts.com/s/29906/DMSerifText-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'DM Serif Text';
+    font-style: italic;
+    font-weight: 400;
+    src: local('DM Serif Text'), url('https://fonts.cdnfonts.com/s/29906/DMSerifText-Italic.woff') format('woff');
+}
+html {
+    font-family: 'DM Serif Text', sans-serif;
+    font-weight: normal;
+}
+{{css}}
+        </style>
         <meta charset="UTF-8">
     </head>
     <body>
         {{> basics}}
         {{#if cv.education.length}}{{> education}}{{/if}}
-        {{#if cv.teaching.length}}{{> teaching}}{{/if}}
+        {{#if cv.professionalAffiliation}}{{> professional_affiliation}}{{/if}}
         {{#if cv.research.length}}{{> research}}{{/if}}
+        {{#if cv.teaching.length}}{{> teaching}}{{/if}}
         {{#if cv.publications.length}}{{> publications}}{{/if}}
         {{#if cv.presentations.length}}{{> presentations}}{{/if}}
         {{#if cv.awards}}{{> awards}}{{/if}}
-        {{#if cv.professionalAffiliation}}{{> professional_affiliation}}{{/if}}
         {{#if cv.languages}}{{> languages}}{{/if}}
         {{#if cv.references}}{{> references}}{{/if}}
     </body>
